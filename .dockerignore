@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+data_raw/
+chroma_db/
+cache/
+tests/
+Dockerfile

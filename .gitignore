@@ -1,0 +1,21 @@
+# 환경 변수 — 절대 커밋 금지. .env.example만 커밋한다.
+.env
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+tests/
+
+# 데이터 / 캐시 (용량이 크고 재생성 가능)
+chroma_db/
+cache/
+db/
+data_raw/
+
+# OS / 에디터
+.DS_Store
+.idea/
+.vscode/
